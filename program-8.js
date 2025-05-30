@@ -17,10 +17,13 @@ function addDash(num)
          result += str[i];
         }
     }
-    num = result;
-    return num;
+    return result;
 };
 
-let sample = 025468;
+
+let sample = "025468";
 let result = addDash(sample);
-console.log(result); // Output: 0-254-6-8
+console.log(result); 
+
+
+
